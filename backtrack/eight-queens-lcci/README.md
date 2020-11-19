@@ -29,7 +29,7 @@
 
 #### 1. 画递归树，找变量
 
-![eight-queens-lcci.png](https://pic.leetcode-cn.com/1605756217-fNrNjN-eight-queens-lcci.png)
+![eight-queens-lcci.png](eight-queens-lcci.png)
 
 观察递归树，皇后 `Q` 在每一行的每一列都尝试放置，需要一变量 `row` 保存当前处理的是哪行。
 

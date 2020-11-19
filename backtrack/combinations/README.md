@@ -23,7 +23,7 @@
 
 #### 1. 画递归树，找变量
 
-![combinations.png](https://pic.leetcode-cn.com/1605749970-URybFi-combinations.png)
+![combinations.png](combinations.png)
 
 观察递归树，当前的选择列表与上一层的选择有关，即为上一层选择后的数字为当前的选择列表，例如上一层选择了 `2` ，那么当前的选择列表为 `[3, 4]` 。因此增加一参数 `start` 表示当前的选择列表是从多少开始。
 

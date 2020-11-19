@@ -21,7 +21,7 @@
 
 #### 1. 画递归树，找变量
 
-![letter-combinations-of-a-phone-number.png](https://pic.leetcode-cn.com/1605748125-ZxIutl-letter-combinations-of-a-phone-number.png)
+![letter-combinations-of-a-phone-number.png](letter-combinations-of-a-phone-number.png)
 
 观察递归树，字符串 `digits` 中的每个字符都要选择一次，遍历所有字符，因此需要一参数( `i` )来记录当前选择的字符下标。
 

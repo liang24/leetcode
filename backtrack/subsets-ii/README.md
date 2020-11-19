@@ -27,7 +27,7 @@
 
 #### 1. 画递归树，找变量
 
-![subsets.png](https://pic.leetcode-cn.com/1605708604-yMADmu-subsets.png)
+![subsets-ii.png](subsets-ii.png)
 
 观察递归树，发现每一层的选择列表是与上一层选择的数之后的剩余列表，因此需要增加一个变量表示可供选择的列表的开始下标。其中出现一些重复的结果，需要进行剪枝，在剪枝那部分再分析。
 
